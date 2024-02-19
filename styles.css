@@ -1,0 +1,141 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    align-items: center;
+    color: #17233D;
+    margin: 21px;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    background: #4CB538;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    top: 32px;
+    left: 420px;
+    cursor: pointer;
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    width: 493px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    color: #4B505A;
+}
+
+.learn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+
+    h1  {
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .learn {
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        width: 350px;
+        height: 300px;
+        position: static;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        top: 6px;
+        left: 21px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 400px;
+    }
+
+    .text {
+        position: absolute;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img {
+        position: absolute;
+        margin-top: 500px;
+        margin-right: 80px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        display: block;
+        
+    }
+
+}
